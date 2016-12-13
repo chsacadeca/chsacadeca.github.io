@@ -1,0 +1,120 @@
+    body {
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+footer {
+    background-color: #800000;
+    color: white;
+    padding: 10px;
+}
+
+a {
+    color: white;
+}
+
+#bg {
+    position: fixed;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
+
+#bg img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    min-width: 50%;
+    min-height: 50%;
+}
+
+.navbar {
+    position: relative;
+    background-color: #800000;
+    color: white;
+    margin-bottom: 0 !important;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    position: relative;
+    color: #fff !important;
+}
+
+.title {
+    position: relative;
+    color: #800000;
+    font-family: 'Raleway', sans-serif;
+}
+
+.jumbotron {
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+
+#about {
+    position: relative;
+    color: white;
+    padding: 50px;
+    background-color: #800000;
+    font-family: 'Raleway', sans-serif;
+}
+
+#materials {
+    position: relative;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    padding: 50px;
+}
+
+#competitions {
+    position: relative;
+    background-color: #000000;
+    color: white;
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.slideanim {
+    position: relative;
+    visibility: hidden;
+}
+
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    /* The duration of the animation */
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible;
+}
+
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }

@@ -1,62 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
-  <title>Centennial AcaDeca</title>
-  <link rel="shortcut icon" href="images/favicon.ico"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <title>Cen10 AcaDeca</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <script src="js/slide.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type- "text/css" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
 </head>
 
 <body>
-  <nav class="navbar">
-   <div class="container">
-     <div class="navbar-header">
-       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-         <span class="icon-bar"></span>
-       </button>
-       <img src="images/chslogo.png" class="circle" alt="Centennial Patriots" width="50px" height="50px">
-       <a class="navbar-brand" href="../index.html">Centennial High Academic Decathlon</a>
-     </div>
-     <div class="collapse navbar-collapse" id="myNavbar">
-       <ul class="nav navbar-nav navbar-right">
-         <li><a href="#">Study Materials</a></li>
-         <li><a href="https://acadecaidaho.wordpress.com">Idaho AcaDeca</a></li>
-         <li><a href="https://github.com/chsacadeca">Source Code</a></li>
-       </ul>
-     </div>
-   </div>
- </nav>
+    <div id="bg">
+        <img src="images/fractal.jpg" alt="fractal.jpg">
+    </div>
 
- <div class="jumbotron text-center">
-   <img src="images/chslogo.png" class="circle" alt="Centennial Patriots">
-   <h2>Centennial Academic Decathlon</h2>
-   <div class="cookies">
-     <p>Join AD. We have <strike>cookies</strike> the highest state meet win rate.
-     Interested? We meet in Room 116 (Mr. Walker's) Mondays at 3 pm.</p>
-   </div>
- </div>
+    <nav class="navbar custom-nav">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+                <a class="navbar-brand" href="#">Cen10 AcaDeca</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#competitions">Meets</a>
+                    </li>
+                    <li>
+                        <a href="materials/materials.html">Study Materials</a>
+                    </li>
+                    <li>
+                        <a href="https://acadecaidaho.wordpress.com">Idaho AcaDeca</a>
+                    </li>
+                    <li>
+                        <a href="https://www.usad.org">USAD</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/chsacadeca">Source Code</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
- <div class="container-fluid announcements text-center">
-   <h3>Announcements</h3>
-     Our varsity division is in need of one member. If you have any friends that meet the criteria,
-      please encourage them to join!
- </div>
+    <div class="jumbotron">
+        <div class="container-fluid bg-1 text-center title">
+            <img id="picture" src="images/chslogo.png" class="img-circle" alt="CHS Logo" style="width:100px;height:100px;">
+            <h1 style="background-color: #e6e6e6; padding: 10px;">Centennial High School Academic Decathlon</h1>
+            <h3 style="background-color: #e6e6e6; padding: 10px;">
+				One of Idaho's top competitive standardized testing squads
+			</h3>
+            <h5 style="background-color: #e6e6e6; padding: 10px;">
+        <strike>Also, we have cookies. No, we really do, every Monday. You should join.</strike>
+      </h5>
+        </div>
+    </div>
 
- <div class="container-fluid calendar text-center">
-   <h3>Calendar</h3>
-   <iframe src="https://calendar.google.com/calendar/embed?src=j6ifrrnqpr557m2uv6p5fh2o60%40group.calendar.google.com&ctz=America/Denver"
-   style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
- </div>
 
- <footer class="container-fluid bg-4 text-center">
-  <p>Powered by GitHub Pages, Bootstrap CSS, <a href="http://www.w3schools.com">W3</a>, and the open source revolution.</p>
- </footer>
+    <div id="about" class="container-fluid bg-3 text-left slideanim">
+        <h3>About Us</h3>
 
- </body>
- </html>
+
+        <h4 id="description">Under construction
+		</h4>
+
+    </div>
+
+    <div id="materials" class="container-fluid bg-5 text-left slideanim">
+        <h3>Materials</h3>
+        <p>For all your studying needs
+            <p>
+                <br>
+                <a href="materials/materials.html" class="btn btn-default btn-lg">Study Materials</a>
+    </div>
+
+    <div id="competitions" class="container-fluid bg-4 text-left slideanim">
+        <h3>Meets</h3>
+        <br>
+        <h4>Invitationals: December 10, 2016 / Meridian Middle School<h4>
+      <h4>Regionals: January 28, 2017 / Meridian Middle School<h4>
+        <h4>State: March 17 + 18, 2017 / Boise State University<h4>
+		</div>
+
+
+
+
+</body>
+
+</html>
